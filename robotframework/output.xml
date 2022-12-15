@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 07:45:40.457" rpa="false" schemaversion="3">
+<suite id="s1" name="5 Waits" source="C:\Users\Lenovo\PycharmProjects\robotframework\TestCases\5_waits.robot">
+<test id="s1-t1" name="wait" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://demowebshop.tricentis.com/register</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220812 07:45:41.096" level="INFO">Opening browser 'chrome' to base url 'http://demowebshop.tricentis.com/register'.</msg>
+<status status="PASS" starttime="20220812 07:45:41.096" endtime="20220812 07:45:47.930"/>
+</kw>
+<kw name="Get Selenium Speed" library="SeleniumLibrary">
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<msg timestamp="20220812 07:45:47.933" level="INFO">${speed} = 0 seconds</msg>
+<status status="PASS" starttime="20220812 07:45:47.932" endtime="20220812 07:45:47.933"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220812 07:45:47.933" endtime="20220812 07:45:47.934"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220812 07:45:47.934" endtime="20220812 07:45:48.056"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>2 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220812 07:45:48.056" endtime="20220812 07:45:48.056"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>Gender</arg>
+<arg>M</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20220812 07:45:48.056" level="INFO">Selecting 'M' from radio button 'Gender'.</msg>
+<status status="PASS" starttime="20220812 07:45:48.056" endtime="20220812 07:45:54.210"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:FirstName</arg>
+<arg>shiva</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220812 07:45:54.211" level="INFO">Typing text 'shiva' into text field 'name:FirstName'.</msg>
+<status status="PASS" starttime="20220812 07:45:54.211" endtime="20220812 07:46:00.347"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:LastName</arg>
+<arg>krishna</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220812 07:46:00.347" level="INFO">Typing text 'krishna' into text field 'name:LastName'.</msg>
+<status status="PASS" starttime="20220812 07:46:00.347" endtime="20220812 07:46:06.501"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:Email</arg>
+<arg>shivakrishna@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220812 07:46:06.502" level="INFO">Typing text 'shivakrishna@gmail.com' into text field 'name:Email'.</msg>
+<status status="PASS" starttime="20220812 07:46:06.501" endtime="20220812 07:46:12.644"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:Password</arg>
+<arg>shiva</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220812 07:46:12.646" level="INFO">Typing text 'shiva' into text field 'name:Password'.</msg>
+<status status="PASS" starttime="20220812 07:46:12.645" endtime="20220812 07:46:18.783"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220812 07:46:18.785" endtime="20220812 07:46:23.174"/>
+</kw>
+<status status="PASS" starttime="20220812 07:45:41.095" endtime="20220812 07:46:23.174"/>
+</test>
+<status status="PASS" starttime="20220812 07:45:40.458" endtime="20220812 07:46:23.174"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="5 Waits">5 Waits</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
